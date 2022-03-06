@@ -1,0 +1,150 @@
+source of knowledge
+https://www.youtube.com/watch?v=GpcMasRWUhI&list=PL0b6OzIxLPbxStBQ21C2toa5uQMqHEoRT
+
+yahoo baba complete html 5 series.
+using html and css you can design mobile app also
+framework for it phonegap and ionic.
+
+
+html 5 is all about tags <>(opening tag)</>(closing tag)
+
+
+for diffrent kind of work there is diffrenet tag is used.
+head tag --> all background work
+title tag --> set title of page
+body tag --> what to display (bgcolor = "red")
+
+
+
+formatting tags :
+bold,italic,heading etc.
+
+h1 to h6, paragraph tag,b,i,strike,
+you can aplly on h1-h6,p,
+align = left,right,center,justify
+
+superscript tag 12<sup>th</sup>
+subscript tag H<sub>2</sub>O
+
+
+
+break tag
+
+
+enitity quotes for custom space -->  &nbsp
+
+Text formatting
+============ removed in html5 ==============================
+font style, color, size(7 types),face etc.
+ <font color='red' size='2' face='aria'>Hellow world</font>
+============================================================
+
+List - order and unorder list
+
+ul type= square ,circle,disc bydefault --> disc
+
+ol type = "A","a",1,i,I start = c
+
+description list :
+ dl  --> dt --> dd
+
+============== removed in html 5==============================================
+marquee tag 
+like news channel
+<marquee behavior ="slide"> # run one time only or alternate or scroll
+"scrollamount"="30" # speed
+direction="right" or left or up or down 
+scrolldelay = "4"
+loop = "2"
+bgcolor = "pink"
+width = "20%"
+height = "20%"
+
+</marquee>
+=============================================================
+
+html preformatted and horizontal pixel 
+<hr/>
+<hr width="50%" align="left" size="5" color = "red"/> noshade(optional)
+
+<pre>write poems</pre>
+
+
+# image tag
+
+<img src=""  width, height and alt />
+
+# anchor tag or hyper link:
+
+type -> externam page link, internal page link or other site link and  mailto link
+
+properties -> href = ""
+target = "_blank" --> to open new page or "_self" --> to open in same page
+_parent and _top 
+# gotoid
+<a href="mailto:heeloo@sknd.com"?cc=admin@mail.com&subject="hello" & body="write anything">contact us</a>
+
+
+
+<a href="tel:8882192787">Call us at 888-219-2787</a>
+
+
+# HTML 5 table tags
+<table border="2" align="center" width="300px" cellpadding="10px" cellspacing="2px" bgcolor="red">
+
+<tr bgcolor="red">
+<td valign='top/bottom/middle' bgcolor="red"  ></td>
+</tr>
+</table>
+
+
+#colspan concept --> colspan joint 2 or more column into one
+#rowspan concept --> colspan joint 2 or more row into one
+
+thead
+tbody
+tfoot
+
+============================================================================================
+#Iframe tag :
+<iframe src="www.google.com" width="200px" height="200px" align="left"> </iframe>
+
+
+
+# Audio tag
+supported file format --> mp3,ogg and wav.
+
+<audio controls autoplay loop muted>
+    <source src="some.mp3" type="audio/mpeg"/>
+        <source src="some.ogg" type="audio/mpeg"/>
+
+    <source src="some.wav" type="audio/mpeg"/>
+
+</audio>
+
+
+# Video tag
+ supported file format --> mp4,ogg,webm.
+
+ <video controls autoplay loop width="" height="" muted poster="image.jpg">
+ <source src="file.mp4" type="video/mp4"></source>
+ </video>
+
+
+# html form tag
+see form.html for code
+
+#new input type in html 5
+1) color
+2) number --> min,max,step
+3) range --> min,max,step
+4) date
+5) datetime local
+6) month
+7) week
+8) time 
+9) email
+10) search
+11) tel
+12) url
+
